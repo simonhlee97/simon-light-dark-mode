@@ -260,10 +260,9 @@ input:checked + .slider::before {
 hr {
     opacity: 0.3;
 }
-/* div.social-icons {
-    text-align: center;
-} */
+
 #contact {
+    /* evenly spaced flex columns */
     justify-content: space-evenly;
 }
 #my-footer {
@@ -273,5 +272,15 @@ hr {
     .fab {
         font-size: 60px;
         margin: 0 15px;
+    }
+    #nav {
+        font-size: 18px;
+    }
+    h1 {
+        letter-spacing: 2px;
+        font-size: 70px;
+    }
+    a {
+        margin-right: 10px;
     }
 }
